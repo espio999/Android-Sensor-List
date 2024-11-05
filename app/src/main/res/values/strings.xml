@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Sensor List</string>
+
+    <string-array name="header_item">
+        <item name="sensor_name">Sensor name</item>
+        <item name="sensor_type">Sensor type</item>
+        <item name="vendor">Vendor</item>
+        <item name="version">Version</item>
+        <item name="ID">ID</item>
+        <item name="power">Power</item>
+        <item name="resolution">Resolution</item>
+        <item name="direct_report_rate_level">Direct report rate level</item>
+        <item name="report_mode">Report mode</item>
+        <item name="range_max">Range (max)</item>
+        <item name="frequency_min">Frequency (min)</item>
+        <item name="frequency_max">Frequency (max)</item>
+        <item name="batch_event_count_min">Batch event count (min)</item>
+        <item name="batch_event_count_max">Batch event count (max)</item>
+        <item name="additional_api_support">Additional API support</item>
+        <item name="direct_channel_support">Direct channel support</item>
+        <item name="dynamic_sensor">Dynamic sensor</item>
+        <item name="wake-up_sensor">Wake-up sensor</item>
+    </string-array>
+
+    <string name="description">Hello\n\nThis application collects information about sensors on this smartphone, and save it as a CSV file in Download folder.\n\n
+Same information is also output with tag \"Android Sensor List\" on Logcat in Android Studio.</string>
+</resources>

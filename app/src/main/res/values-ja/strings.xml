@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Sensor List</string>
+
+    <string-array name="header_item">
+        <item name="sensor_name">センサー名</item>
+        <item name="sensor_type">センサータイプ</item>
+        <item name="vendor">ベンダー</item>
+        <item name="version">バージョン</item>
+        <item name="ID">ID</item>
+        <item name="power">消費電力</item>
+        <item name="resolution">分解能</item>
+        <item name="direct_report_rate_level">最大メモリ書込レベル</item>
+        <item name="report_mode">レポートモード</item>
+        <item name="range_max">最大範囲</item>
+        <item name="frequency_min">最小サンプリング間隔</item>
+        <item name="frequency_max">最大サンプリング間隔</item>
+        <item name="batch_event_count_min">バッチ可能最小イベント数</item>
+        <item name="batch_event_count_max">バッチ可能最大イベント数</item>
+        <item name="additional_api_support">追加API対応可否</item>
+        <item name="direct_channel_support">ダイレクトチャネル対応可否</item>
+        <item name="dynamic_sensor">動的センサー</item>
+        <item name="wake-up_sensor">ウェイクアップセンサー</item>
+    </string-array>
+
+    <string name="description">この端末に搭載されているセンサー一覧を取得し、ダウンロード・フォルダに保存します。\n\n
+同じ情報がAndroid StudioのLogcatにも、タグ”Android Sensor List”とともに出力されます。</string>
+</resources>
